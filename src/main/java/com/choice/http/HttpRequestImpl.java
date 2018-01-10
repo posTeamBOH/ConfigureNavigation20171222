@@ -50,7 +50,6 @@ public class HttpRequestImpl implements HttpRequest{
 		//post和get
 		if(br.ready())//post//POST提交方式判断，如果还有下一行就继续读取信息
 		{
-			System.out.println("还有正文");
 			char[] buf=new char[1024];
 			int len=br.read(buf);//使用字节进行读取，因为这一行没有回车换行，readLine无法判断是否结束
 			String parameter=new String(buf,0,len);
@@ -76,13 +75,11 @@ public class HttpRequestImpl implements HttpRequest{
 	}
         //POST方法处理
         private void parseRequestParamByPost(String parameter)  {
-			System.out.println(parameter + "@@@@@@post方式的参数");
 		 String[] strs=parameter.split("&");
 		 if(strs.length>=1)
 		 {
 			 for(String str:strs)
 			 {
-				 System.out.println(str + "post方式的参数");
 				 String [] sp=str.split("=");
 				 if (sp.length > 1){
 					 hmparameters.put(sp[0],sp[1]);
@@ -156,7 +153,6 @@ public class HttpRequestImpl implements HttpRequest{
     public boolean isDynamicResource() {
         // 存在？？文件？？动态？？
         System.out.println("进入isDynamicResource()方法");
-		System.out.println(requestPath + "&*&*&*&");
 		if (requestPath == null) return false;
 		String path = ServletMappingUtils.getMappingValue(requestPath);
         /*

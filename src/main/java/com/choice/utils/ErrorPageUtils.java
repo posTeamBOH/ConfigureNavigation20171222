@@ -31,10 +31,5 @@ public class ErrorPageUtils {
 	{ 
 		return p.getProperty(statusCode);
 	}
-	public static void main(String[] args) {//输出测试
-	//	Properties p=new Properties();
-	//	p.setProperty("rootPath","ddd");
-	//	System.out.println(p.get("rootPath"));
-		System.out.println(getErrorPage(404+""));
-	}
+
 }

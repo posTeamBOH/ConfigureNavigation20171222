@@ -22,13 +22,19 @@ public class ModityConfigHelper {
         if (!parent.exists()) {
             parent.mkdirs();
         }
+        File file = null;
         Properties prop = new Properties();
-       // InputStream inputFile;
+        InputStream inputFile;
         OutputStream outputFile;
         try {
-            //inputFile = new FileInputStream(new File(pathName));
-           // prop.load(inputFile);
+            file = new File(pathName);
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+            inputFile = new FileInputStream(new File(pathName));
+            prop.load(inputFile);
             outputFile = new FileOutputStream(new File(pathName));
+
            //设值-保存
             for (String key : maps.keySet()) {
                 String value = maps.get(key);

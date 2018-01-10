@@ -35,10 +35,4 @@ public class ServerPortUtils {
 		return port;
 	}
 
-	public static void main(String[] args) {//输出测试
-
-//		System.out.println(ServerPortUtils.getIp());
-//		System.out.println(ServerPortUtils.getPort());
-//		System.out.println("hah");
-	}
 }

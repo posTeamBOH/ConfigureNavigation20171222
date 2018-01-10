@@ -59,7 +59,4 @@ public class PingHelper {
 		return pattern.matcher(port).matches();
 	}
 
-	public static void main(String[] args) {
-		System.out.println(new PingHelper().isNumberic(""));
-	}
 }

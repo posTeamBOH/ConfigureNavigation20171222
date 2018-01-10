@@ -16,6 +16,7 @@ public class XmlToHtmlJsResolver {
     public void analysisXml() {
         produceWelcome();
         produceLast();
+        produceCss();
         produceJs();
         try {
             Map<String, String> MAPS = new HashMap<String,String>();
@@ -125,56 +126,9 @@ public class XmlToHtmlJsResolver {
         metaElement.addAttribute("charset", "UTF-8");
 
         //加入css样式
-        Element styleElement = headElement.addElement("style");
-        styleElement.setText("\n" +
-                "        .clearfix:after {\n" +
-                "            content: \"\";\n" +
-                "            clear: both;\n" +
-                "            display: block;\n" +
-                "        }\n" +
-                "\n" +
-                "        .container {\n" +
-                "            width: 300px;\n" +
-                "            margin: 30px auto;\n" +
-                "        }\n" +
-                "\n" +
-                "        .title {\n" +
-                "            text-align: center;\n" +
-                "\n" +
-                "        }\n" +
-                "\n" +
-                "        .row {\n" +
-                "            margin: 10px 0;\n" +
-                "        }\n" +
-                "\n" +
-                "        .row span {\n" +
-                "            float: left;\n" +
-                "        }\n" +
-                "\n" +
-                "        .row input {\n" +
-                "            float: right;\n" +
-                "        }\n" +
-                "\n" +
-                "        .bottom {\n" +
-                "            margin-top: 20px;\n" +
-                "            text-align: center;\n" +
-                "        }\n" +
-                "\n" +
-                "        .bottom button {\n" +
-                "            width: 60px;\n" +
-                "        }\n" +
-                "\n" +
-                "        .radioMain span {\n" +
-                "            float: left;\n" +
-                "        }\n" +
-                "\n" +
-                "        .radioMainRow div {\n" +
-                "            float: right;\n" +
-                "        }\n" +
-                "\n" +
-                "        .radioMainRow div input {\n" +
-                "            margin: 0 8px 0 8px;\n" +
-                "        }");
+        Element styleElement = headElement.addElement("link");
+        styleElement.addAttribute("href", "style.css");
+        styleElement.addAttribute("rel", "stylesheet");
         Element titleElement = headElement.addElement("title");
         titleElement.addText("配置");
         //head*********************************//
@@ -620,19 +574,13 @@ public class XmlToHtmlJsResolver {
                 "*/\n" +
                 "\n" +
                 "    // 全局变量\n" +
-                "    class Number {\n" +
-                "        constructor(nowPageNumber) {\n" +
-                "            this.nowPageNumber = nowPageNumber;\n" +
-                "        }\n" +
-                "    }\n" +
-                "\n" +
-                "    let Num = new Number(1);  //指定当前页码\n" +
+                "    let Num = 1;  //指定当前页码\n" +
                 "    const allPageNumber = document.getElementsByTagName(\"section\").length;\n" +
                 "\n" +
                 "    // 全局 Array\n" +
-                "    let infos = document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input'); // now Page Info\n" +
+                "    let infos = document.querySelectorAll('#modify' + Num + ' .main input'); // now Page Info\n" +
                 "    let allInfos = document.querySelectorAll('.main input'); // all Page Info\n" +
-                "    let radioInfos = document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input');  // now Page Info\n" +
+                "    let radioInfos = document.querySelectorAll('#modify' + Num + ' .radioMain input');  // now Page Info\n" +
                 "    let allRadioInfos = document.querySelectorAll('.radioMain input'); // all Page Info\n" +
                 "    let allPage = document.querySelectorAll('section'); //all Page\n" +
                 "    // 按钮\n" +
@@ -653,21 +601,21 @@ public class XmlToHtmlJsResolver {
                 "    //基础信息获取函数\n" +
                 "    function getParam() {\n" +
                 "        param = '';\n" +
-                "        console.log(Num.nowPageNumber)\n" +
-                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input').length; i++) {\n" +
-                "            param = param + document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input')[i].id + '=&'\n" +
+                "        console.log(Num)\n" +
+                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num + ' .main input').length; i++) {\n" +
+                "            param = param + document.querySelectorAll('#modify' + Num + ' .main input')[i].id + '=&'\n" +
                 "        }\n" +
                 "        //处理radio\n" +
                 "        let temporary = '';\n" +
-                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input').length; i++) {\n" +
-                "            if (temporary != document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name) {\n" +
-                "                temporary = document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name;\n" +
-                "                param = param + document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name + '=&'\n" +
+                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num + ' .radioMain input').length; i++) {\n" +
+                "            if (temporary != document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name) {\n" +
+                "                temporary = document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name;\n" +
+                "                param = param + document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name + '=&'\n" +
                 "            }\n" +
                 "        }\n" +
                 "        param = param.slice(0, param.length - 1)\n" +
                 "\n" +
-                "        // console.log(param,document.querySelectorAll('#modify'+Num.nowPageNumber+' .main input'));\n" +
+                "        // console.log(param,document.querySelectorAll('#modify'+Num+' .main input'));\n" +
                 "        return param;\n" +
                 "    }\n" +
                 "\n" +
@@ -719,20 +667,20 @@ public class XmlToHtmlJsResolver {
                 "                let data = xmlhttp.responseText;\n" +
                 "                data = JSON.parse(data);\n" +
                 "                console.log(data);\n" +
-                "                for (let i = 0; i < document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input').length; i++) {\n" +
-                "                    document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input')[i].value = data[document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input')[i].id];\n" +
+                "                for (let i = 0; i < document.querySelectorAll('#modify' + Num + ' .main input').length; i++) {\n" +
+                "                    document.querySelectorAll('#modify' + Num + ' .main input')[i].value = data[document.querySelectorAll('#modify' + Num + ' .main input')[i].id];\n" +
                 "                }\n" +
                 "\n" +
                 "                //radio配置\n" +
                 "                let t = '';\n" +
-                "                for (let i = 0; i < document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input').length; i++) {\n" +
-                "                    if (document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name != t) {\n" +
-                "                        if (data[document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name] == null || data[document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name] == '') {\n" +
-                "                            document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].checked = true;\n" +
+                "                for (let i = 0; i < document.querySelectorAll('#modify' + Num + ' .radioMain input').length; i++) {\n" +
+                "                    if (document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name != t) {\n" +
+                "                        if (data[document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name] == null || data[document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name] == '') {\n" +
+                "                            document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].checked = true;\n" +
                 "                        } else {\n" +
-                "                            document.getElementById(document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name + data[document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name]).checked = true;\n" +
+                "                            document.getElementById(document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name + data[document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name]).checked = true;\n" +
                 "                        }\n" +
-                "                        t = document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name;\n" +
+                "                        t = document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name;\n" +
                 "                    }\n" +
                 "                }\n" +
                 "                //\n" +
@@ -756,11 +704,11 @@ public class XmlToHtmlJsResolver {
                 "        updateButton(0);\n" +
                 "    }\n" +
                 "\n" +
-                "    console.log('当前页码为:', Num.nowPageNumber);\n" +
+                "    console.log('当前页码为:', Num);\n" +
                 "    console.log('当前Page的所有表单信息为：', infos, radioInfos);\n" +
                 "    console.log('所有Page的表单信息为：', allInfos, allRadioInfos);\n" +
                 "    console.log(param);\n" +
-                "    document.getElementById(\"modify\" + Num.nowPageNumber).style.display = \"block\";\n" +
+                "    document.getElementById(\"modify\" + Num).style.display = \"block\";\n" +
                 "    /*\n" +
                 "`               ``````````````````````````````````````````````````````````````````````\n" +
                 "    Impl区\n" +
@@ -769,11 +717,11 @@ public class XmlToHtmlJsResolver {
                 "\n" +
                 "    //上一步\n" +
                 "    function lastPage(param) {\n" +
-                "        if (Num.nowPageNumber != 2) updateButton(1);\n" +
+                "        if (Num != 2) updateButton(1);\n" +
                 "        else updateButton(0);\n" +
-                "        document.getElementById(\"modify\" + Num.nowPageNumber).style.display = \"none\";\n" +
-                "        Num.nowPageNumber--;\n" +
-                "        document.getElementById(\"modify\" + Num.nowPageNumber).style.display = \"block\";\n" +
+                "        document.getElementById(\"modify\" + Num).style.display = \"none\";\n" +
+                "        Num--;\n" +
+                "        document.getElementById(\"modify\" + Num).style.display = \"block\";\n" +
                 "    }\n" +
                 "\n" +
                 "    //下一步\n" +
@@ -792,16 +740,16 @@ public class XmlToHtmlJsResolver {
                 "                console.log('点击下一步时候接收到的data：', JSON.parse(data));\n" +
                 "                data = JSON.parse(data);\n" +
                 "                if (data.type == true) {\n" +
-                "                    if (Num.nowPageNumber < allPageNumber - 1) {\n" +
+                "                    if (Num < allPageNumber - 1) {\n" +
                 "                        updateButton(1);\n" +
                 "                    } else {\n" +
                 "                        updateButton(2);\n" +
                 "                    }\n" +
-                "                    document.getElementById(\"modify\" + Num.nowPageNumber).style.display = \"none\";\n" +
-                "                    Num.nowPageNumber++;\n" +
+                "                    document.getElementById(\"modify\" + Num).style.display = \"none\";\n" +
+                "                    Num++;\n" +
                 "                    param = getParam();\n" +
                 "                    getInfo(param);\n" +
-                "                    document.getElementById(\"modify\" + Num.nowPageNumber).style.display = \"block\";\n" +
+                "                    document.getElementById(\"modify\" + Num).style.display = \"block\";\n" +
                 "                } else if (data.type == false) {\n" +
                 "                    alert(data.message);\n" +
                 "                } else {\n" +
@@ -856,15 +804,15 @@ public class XmlToHtmlJsResolver {
                 "    //重置\n" +
                 "    reset.onclick = function () {\n" +
                 "        let param = '';\n" +
-                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input').length; i++) {\n" +
-                "            param = param + document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input')[i].id + '=&'\n" +
+                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num + ' .main input').length; i++) {\n" +
+                "            param = param + document.querySelectorAll('#modify' + Num + ' .main input')[i].id + '=&'\n" +
                 "        }\n" +
                 "        //处理radio\n" +
                 "        let temporary = '';\n" +
-                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input').length; i++) {\n" +
-                "            if (temporary != document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name) {\n" +
-                "                temporary = document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name;\n" +
-                "                param = param + document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name + '=&'\n" +
+                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num + ' .radioMain input').length; i++) {\n" +
+                "            if (temporary != document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name) {\n" +
+                "                temporary = document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name;\n" +
+                "                param = param + document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name + '=&'\n" +
                 "            }\n" +
                 "        }\n" +
                 "        param = param.slice(0, param.length - 1);\n" +
@@ -879,8 +827,8 @@ public class XmlToHtmlJsResolver {
                 "    //下一步\n" +
                 "    next.onclick = function () {\n" +
                 "        let param = '';\n" +
-                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input').length; i++) {\n" +
-                "            var str = document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input')[i];\n" +
+                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num + ' .main input').length; i++) {\n" +
+                "            var str = document.querySelectorAll('#modify' + Num + ' .main input')[i];\n" +
                 "            var pattern = /^[a-zA-Z]:(([a-zA-Z]*)||([a-zA-Z]*\\\\))*/;//判断路径是否合法的正则表达式\n" +
                 "\n" +
                 "            if (str.getAttribute(\"data-type\") == \"folder\" && !pattern.test(str.value)) {\n" +
@@ -890,12 +838,12 @@ public class XmlToHtmlJsResolver {
                 "                alert(str.getAttribute(\"data-name\") + \"不能为空\");\n" +
                 "                return;\n" +
                 "            }\n" +
-                "            param = param + document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input')[i].id + '=' + document.querySelectorAll('#modify' + Num.nowPageNumber + ' .main input')[i].value + '&'\n" +
+                "            param = param + document.querySelectorAll('#modify' + Num + ' .main input')[i].id + '=' + document.querySelectorAll('#modify' + Num + ' .main input')[i].value + '&'\n" +
                 "        }\n" +
                 "        //处理radio\n" +
-                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input').length; i++) {\n" +
-                "            if (document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].checked == true) {\n" +
-                "                param = param + document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].name + '=' + document.querySelectorAll('#modify' + Num.nowPageNumber + ' .radioMain input')[i].value + '&'\n" +
+                "        for (let i = 0; i < document.querySelectorAll('#modify' + Num + ' .radioMain input').length; i++) {\n" +
+                "            if (document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].checked == true) {\n" +
+                "                param = param + document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].name + '=' + document.querySelectorAll('#modify' + Num + ' .radioMain input')[i].value + '&'\n" +
                 "            }\n" +
                 "\n" +
                 "        }\n" +
@@ -906,7 +854,7 @@ public class XmlToHtmlJsResolver {
                 "    };\n" +
                 "\n" +
                 "    //完成\n" +
-                "    final.onclick = () => {\n" +
+                "    final.onclick= function () {\n" +
                 "        let param = '';\n" +
                 "        for (let i = 0; i < document.querySelectorAll('.main input').length; i++) {\n" +
                 "\n" +
@@ -952,9 +900,112 @@ public class XmlToHtmlJsResolver {
         }
     }
 
+    private void produceCss() {
+        String cssString = "body{\n" +
+                "    background: rgb(243,243,243);\n" +
+                "}\n" +
+                ".clearfix:after {\n" +
+                "    content: \"\";\n" +
+                "    clear: both;\n" +
+                "    display: block;\n" +
+                "}\n" +
+                "\n" +
+                ".container {\n" +
+                "    width: 50%;\n" +
+                "    height: 80%;\n" +
+                "    margin: 0 auto;\n" +
+                "    padding: 20px;\n" +
+                "    background: white;\n" +
+                "}\n" +
+                "#card{\n" +
+                "    box-shadow: 0 1px 225px rgba(0,0,0,.1);\n" +
+                "}\n" +
+                ".title {\n" +
+                "    text-align: center;\n" +
+                "\n" +
+                "}\n" +
+                "\n" +
+                ".row {\n" +
+                "    margin: 10px 0;\n" +
+                "}\n" +
+                "\n" +
+                ".row span {\n" +
+                "    float: left;\n" +
+                "}\n" +
+                "\n" +
+                ".row input {\n" +
+                "    float: right;\n" +
+                "    font-size: 14px;\n" +
+                "    height: 34px;\n" +
+                "    border: 1px solid #e7eaf1;\n" +
+                "    border-radius: 3px;\n" +
+                "    background: #f7f8fa;\n" +
+                "    padding: 4px 10px;\n" +
+                "    color: initial;\n" +
+                "    outline:none;\n" +
+                "}\n" +
+                ".row input:hover{\n" +
+                "    border: 1px solid #cccccc;\n" +
+                "}\n" +
+                ".row input:focus{\n" +
+                "    border: 2px solid #40a9ff;\n" +
+                "    background: white;\n" +
+                "\n" +
+                "}\n" +
+                ".bottom {\n" +
+                "    text-align: center;\n" +
+                "}\n" +
+                "\n" +
+                ".radioMain span {\n" +
+                "    float: left;\n" +
+                "}\n" +
+                "\n" +
+                ".radioMainRow div {\n" +
+                "    float: right;\n" +
+                "    margin-left: 20px;\n" +
+                "}\n" +
+                "\n" +
+                ".radioMainRow div input {\n" +
+                "    margin: 0 8px 0 8px;\n" +
+                "}\n" +
+                "\n" +
+                ".bottom button {\n" +
+                "    background-color: #4CAF50; /* Green */\n" +
+                "    border: none;\n" +
+                "    color: white;\n" +
+                "    padding: 6px 22px;\n" +
+                "    text-align: center;\n" +
+                "    text-decoration: none;\n" +
+                "    display: inline-block;\n" +
+                "    font-size: 16px;\n" +
+                "    margin: 4px 2px;\n" +
+                "    cursor: pointer;\n" +
+                "    -webkit-transition-duration: 0.4s; /* Safari */\n" +
+                "    transition-duration: 0.4s;\n" +
+                "    border-radius: 2px;\n" +
+                "    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);\n" +
+                "}\n" +
+                ".light :hover {\n" +
+                "    color: #4CAF50 !important;\n" +
+                "}\n";
+        String parent = System.getProperty("user.dir")+File.separator+"navigationHtml"+File.separator;
+        new File(parent).mkdirs();
+        String path = String.format("%s%s", parent, "style.css");
+        try {
+            OutputStream out = new FileOutputStream(new File(path));
+            out.write(cssString.getBytes("UTF-8"));
+            out.flush();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
     public static void main(String[] args) {
         // XmlToHtmlJsResolver().produceJs();
-        //new XmlToHtmlJsResolver().produceWelcome();
-        new XmlToHtmlJsResolver().produceLast();
+        new XmlToHtmlJsResolver().produceCss();
+
     }
 }

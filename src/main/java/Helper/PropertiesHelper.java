@@ -41,9 +41,6 @@ public class PropertiesHelper {
      * @param value
      */
     public static void updateProperies(String key,String value){
-        System.out.println("no");
-        System.out.println(key+":    "+value);
-        System.out.println("path:"+"C:\\Users\\mengq\\Desktop\\CSDN_WebServer\\src\\com\\choice\\utils\\Test.properties");
         File file = new File("src\\test\\Test.properties");
         Properties prop = new Properties();
         InputStream inputFile = null;

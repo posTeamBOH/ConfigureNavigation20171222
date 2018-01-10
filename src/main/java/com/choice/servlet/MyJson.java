@@ -18,7 +18,6 @@ public class MyJson {
             i++;
         }
         json += "}";
-        System.out.println(json + "json");
         return json;
     }
 
@@ -43,7 +42,6 @@ public class MyJson {
             json += "," + "\"" + "message" + "\"" + ":" + "\"" + message + "\"";
         }
         json += "}";
-        System.out.println(json + "&*&*&******************************************");
         return json;
     }
 

@@ -2,415 +2,425 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6042e14-c207-48a4-baa1-ed1a4a3ac404" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConfigureNavigation.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Helper/ModityConfigHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Helper/PathHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Helper/PingHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Helper/PropertiesHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Helper/XmlToHtmlJsResolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/NavigationConfigServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpAccessProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpAccessProcessorImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpCreatorImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpRequestImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpResponseImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/ServerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/server/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/server/ServerThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/servlet/FinalServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/servlet/GetDataServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/servlet/MyJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/servlet/Servlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/servlet/TotalServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/servlet/WelcomeServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/utils/ConfigUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/utils/ErrorPageUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/utils/MIMEUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/utils/ServerPortUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/utils/ServletMappingUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/choice/utils/StatusCodeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/Attribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/Branch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/CDATA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/CharacterData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/Comment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/Document.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/DocumentException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/DocumentFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/DocumentHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/DocumentType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/Element.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/ElementHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/ElementPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/Entity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/IllegalAddException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/InvalidXPathException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/Namespace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/NodeFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/ProcessingInstruction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/QName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/Text.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/Visitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/VisitorSupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/XPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/XPathException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/bean/BeanAttribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/bean/BeanAttributeList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/bean/BeanDocumentFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/bean/BeanElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/bean/BeanMetaData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/bean/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/datatype/InvalidSchemaException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/datatype/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/dom/DOMNodeHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/dom/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/dtd/AttributeDecl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/dtd/ElementDecl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/dtd/ExternalEntityDecl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/dtd/InternalEntityDecl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/dtd/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/DOMReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/DOMWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/DispatchHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/DocumentInputSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/DocumentResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/DocumentSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/ElementModifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/ElementStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/HTMLWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/JAXPHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/OutputFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/PruningDispatchHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/PruningElementStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXContentHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXEventRecorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXModifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXModifyContentHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXModifyElementHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXModifyException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXModifyReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/STAXEventReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/STAXEventWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/XMLResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/XMLWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/jaxb/JAXBObjectHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/jaxb/JAXBObjectModifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/jaxb/JAXBRuntimeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/Mode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/NullAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/Pattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/Rule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/RuleManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/RuleSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/Stylesheet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/pattern/DefaultPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/rule/pattern/NodeTypePattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/swing/BranchTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/swing/DocumentTreeModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/swing/LeafTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/swing/XMLTableColumnDefinition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/swing/XMLTableDefinition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/swing/XMLTableModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/swing/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractAttribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractBranch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractCDATA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractCharacterData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractDocument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractDocumentType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractProcessingInstruction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/AbstractText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/BackedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/BaseElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/ConcurrentReaderHashMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/ContentListFacade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/DefaultAttribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/DefaultCDATA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/DefaultComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/DefaultDocument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/DefaultDocumentType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/DefaultElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/DefaultEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/DefaultNamespace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/DefaultProcessingInstruction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/DefaultText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/ElementIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/ElementNameIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/ElementQNameIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/FilterIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/FlyweightAttribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/FlyweightCDATA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/FlyweightComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/FlyweightEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/FlyweightProcessingInstruction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/FlyweightText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/NamespaceCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/NamespaceStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/QNameCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/SingleIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/tree/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/AttributeHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/IndexedDocumentFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/IndexedElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/NodeComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/NonLazyDocumentFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/NonLazyElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/PerThreadSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/ProxyDocumentFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/SimpleSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/SingletonStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/UserDataAttribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/UserDataDocumentFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/UserDataElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/XMLErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/util/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/xpath/DefaultNamespaceContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/xpath/DefaultXPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/xpath/XPathPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/xpath/overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/xpath/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/dom4j/xpp/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/BaseXPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/Context.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/ContextSupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/DefaultNavigator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/Function.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/FunctionCallException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/FunctionContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/JaxenConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/JaxenException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/JaxenHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/JaxenRuntimeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/NamedAccessNavigator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/NamespaceContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/Navigator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/QualifiedName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/SimpleFunctionContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/SimpleNamespaceContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/SimpleVariableContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/UnresolvableException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/UnsupportedAxisException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/VariableContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/XPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/XPathFunctionContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/XPathSyntaxException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/dom/DOMXPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/dom/DocumentNavigator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/dom/NamespaceNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/dom/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/dom4j/DocumentNavigator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/dom4j/Dom4jXPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/dom4j/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/AdditiveExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/AllNodeStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/BinaryExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/CommentNodeStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultAbsoluteLocationPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultAdditiveExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultAllNodeStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultAndExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultArithExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultBinaryExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultCommentNodeStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultDivExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultEqualityExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultEqualsExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultFilterExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultFunctionCallExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultGreaterThanEqualExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultGreaterThanExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultLessThanEqualExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultLessThanExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultLiteralExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultLocationPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultLogicalExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultMinusExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultModExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultMultiplicativeExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultMultiplyExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultNameStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultNotEqualsExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultNumberExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultOrExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultPathExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultPlusExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultPredicate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultProcessingInstructionNodeStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultRelationalExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultRelativeLocationPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultTextNodeStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultTruthExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultUnaryExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultUnionExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultVariableReferenceExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultXPathExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/DefaultXPathFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/EqualityExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/Expr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/FilterExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/FunctionCallExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/IdentitySet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/LiteralExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/LocationPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/LogicalExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/MultiplicativeExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/NameStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/NodeComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/NumberExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/PathExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/Predicate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/PredicateSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/Predicated.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/ProcessingInstructionNodeStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/RelationalExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/Step.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/TextNodeStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/UnaryExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/UnionExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/VariableReferenceExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/XPathExpr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/XPathFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableAncestorAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableAncestorOrSelfAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableAttributeAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableChildAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableDescendantAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableDescendantOrSelfAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableFollowingAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableFollowingSiblingAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableNamespaceAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableParentAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterablePrecedingAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterablePrecedingSiblingAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/IterableSelfAxis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/iter/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/expr/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/BooleanFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/CeilingFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/ConcatFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/ContainsFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/CountFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/FalseFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/FloorFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/IdFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/LangFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/LastFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/LocalNameFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/NameFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/NamespaceUriFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/NormalizeSpaceFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/NotFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/NumberFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/PositionFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/RoundFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/StartsWithFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/StringFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/StringLengthFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/SubstringAfterFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/SubstringBeforeFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/SubstringFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/SumFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/TranslateFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/TrueFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/ext/EndsWithFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/ext/EvaluateFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/ext/LocaleFunctionSupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/ext/LowerFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/ext/UpperFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/ext/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/xslt/DocumentFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/function/xslt/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/javabean/DocumentNavigator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/javabean/Element.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/javabean/ElementIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/javabean/JavaBeanXPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/javabean/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/jdom/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/AnyChildNodeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/AnyNodeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/LocationPathPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/NameTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/NamespaceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/NoNodeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/NodeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/NodeTypeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/Pattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/PatternHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/PatternParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/TextNodeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/UnionPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/Axis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/Operator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/SAXPathEventSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/SAXPathException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/XPathHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/XPathReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/XPathSyntaxException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/base/Token.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/base/TokenTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/base/Verifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/base/XPathLexer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/base/XPathReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/base/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/helpers/DefaultXPathHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/helpers/XPathReaderFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/helpers/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/saxpath/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/AncestorAxisIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/AncestorOrSelfAxisIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/DescendantAxisIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/DescendantOrSelfAxisIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/FollowingAxisIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/FollowingSiblingAxisIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/LinkedIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/PrecedingAxisIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/PrecedingSiblingAxisIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/SelfAxisIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/SingleObjectIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/SingletonList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/StackedIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/util/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/choice/jaxen/xom/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/w3c/dom/UserDataHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/Helper/choicedom4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/choice/utils/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/choice/utils/error_page.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/choice/utils/mime.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/choice/utils/servlet_mapping.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/com/choice/utils/status_code.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resource/ChoiceNavigation.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConfigureNavigation-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Helper/ModityConfigHelper.class" afterPath="$PROJECT_DIR$/target/classes/Helper/ModityConfigHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Helper/PathHelper.class" afterPath="$PROJECT_DIR$/target/classes/Helper/PathHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Helper/PingHelper.class" afterPath="$PROJECT_DIR$/target/classes/Helper/PingHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Helper/PropertiesHelper.class" afterPath="$PROJECT_DIR$/target/classes/Helper/PropertiesHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Helper/XmlToHtmlJsResolver.class" afterPath="$PROJECT_DIR$/target/classes/Helper/XmlToHtmlJsResolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/NavigationConfigServer$1.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/NavigationConfigServer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/NavigationConfigServer.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/NavigationConfigServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/http/HttpAccessProcessor.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/http/HttpAccessProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/http/HttpAccessProcessorImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/http/HttpAccessProcessorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/http/HttpCreator.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/http/HttpCreator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/http/HttpCreatorImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/http/HttpCreatorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/http/HttpRequest.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/http/HttpRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/http/HttpRequestImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/http/HttpRequestImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/http/HttpResponse.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/http/HttpResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/http/HttpResponseImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/http/HttpResponseImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/http/ServerTest$1.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/http/ServerTest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/http/ServerTest.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/http/ServerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/server/Server.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/server/Server.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/server/ServerThread.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/server/ServerThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/servlet/FinalServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/servlet/FinalServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/servlet/GetDataServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/servlet/GetDataServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/servlet/MyJson.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/servlet/MyJson.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/servlet/Servlet.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/servlet/Servlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/servlet/TotalServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/servlet/TotalServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/servlet/WelcomeServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/servlet/WelcomeServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/utils/ConfigUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/utils/ConfigUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/utils/ErrorPageUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/utils/ErrorPageUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/utils/MIMEUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/utils/MIMEUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/utils/ServerPortUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/utils/ServerPortUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/utils/ServletMappingUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/utils/ServletMappingUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/choice/utils/StatusCodeUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/choice/utils/StatusCodeUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Attribute.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Attribute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Branch.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Branch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/CDATA.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/CDATA.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/CharacterData.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/CharacterData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Comment.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Comment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Document.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Document.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/DocumentException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/DocumentException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/DocumentFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/DocumentFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/DocumentHelper.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/DocumentHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/DocumentType.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/DocumentType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Element.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/ElementHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/ElementHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/ElementPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/ElementPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Entity.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Entity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/IllegalAddException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/IllegalAddException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/InvalidXPathException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/InvalidXPathException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Namespace.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Namespace.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Node.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/NodeFilter.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/NodeFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/ProcessingInstruction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/ProcessingInstruction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/QName.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/QName.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Text.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Text.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Visitor.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/Visitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/VisitorSupport.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/VisitorSupport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/XPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/XPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/XPathException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/XPathException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/bean/BeanAttribute.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/bean/BeanAttribute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/bean/BeanAttributeList.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/bean/BeanAttributeList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/bean/BeanDocumentFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/bean/BeanDocumentFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/bean/BeanElement.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/bean/BeanElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/bean/BeanMetaData.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/bean/BeanMetaData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/datatype/InvalidSchemaException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/datatype/InvalidSchemaException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dom/DOMNodeHelper$1.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dom/DOMNodeHelper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dom/DOMNodeHelper$EmptyNodeList.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dom/DOMNodeHelper$EmptyNodeList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dom/DOMNodeHelper.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dom/DOMNodeHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dtd/AttributeDecl.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dtd/AttributeDecl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dtd/ElementDecl.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dtd/ElementDecl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dtd/ExternalEntityDecl.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dtd/ExternalEntityDecl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dtd/InternalEntityDecl.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/dtd/InternalEntityDecl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DOMReader.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DOMReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DOMWriter.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DOMWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DispatchHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DispatchHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DocumentInputSource$1.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DocumentInputSource$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DocumentInputSource.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DocumentInputSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DocumentResult.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DocumentResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DocumentSource.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/DocumentSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/ElementModifier.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/ElementModifier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/ElementStack.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/ElementStack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/HTMLWriter$FormatState.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/HTMLWriter$FormatState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/HTMLWriter.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/HTMLWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/JAXPHelper.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/JAXPHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/OutputFormat.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/OutputFormat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/PruningDispatchHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/PruningDispatchHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/PruningElementStack.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/PruningElementStack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXContentHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXContentHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXEventRecorder$SAXEvent.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXEventRecorder$SAXEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXEventRecorder.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXEventRecorder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXHelper.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXModifier.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXModifier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXModifyContentHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXModifyContentHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXModifyElementHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXModifyElementHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXModifyException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXModifyException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXModifyReader.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXModifyReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXReader$SAXEntityResolver.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXReader$SAXEntityResolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXReader.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXValidator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXWriter.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/SAXWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/STAXEventReader.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/STAXEventReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/STAXEventWriter$AttributeIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/STAXEventWriter$AttributeIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/STAXEventWriter$NamespaceIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/STAXEventWriter$NamespaceIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/STAXEventWriter.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/STAXEventWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/XMLResult.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/XMLResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/XMLWriter.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/io/XMLWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/jaxb/JAXBObjectHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/jaxb/JAXBObjectHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/jaxb/JAXBObjectModifier.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/jaxb/JAXBObjectModifier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/jaxb/JAXBRuntimeException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/jaxb/JAXBRuntimeException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/Action.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/Action.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/Mode.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/Mode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/NullAction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/NullAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/Pattern.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/Pattern.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/Rule.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/Rule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/RuleManager$1.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/RuleManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/RuleManager.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/RuleManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/RuleSet.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/RuleSet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/Stylesheet.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/Stylesheet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/pattern/DefaultPattern.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/pattern/DefaultPattern.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/pattern/NodeTypePattern.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/rule/pattern/NodeTypePattern.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/BranchTreeNode$1.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/BranchTreeNode$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/BranchTreeNode.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/BranchTreeNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/DocumentTreeModel.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/DocumentTreeModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/LeafTreeNode$1.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/LeafTreeNode$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/LeafTreeNode.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/LeafTreeNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/XMLTableColumnDefinition.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/XMLTableColumnDefinition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/XMLTableDefinition.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/XMLTableDefinition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/XMLTableModel.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/swing/XMLTableModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractAttribute.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractAttribute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractBranch.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractBranch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractCDATA.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractCDATA.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractCharacterData.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractCharacterData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractComment.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractComment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractDocument.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractDocument.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractDocumentType.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractDocumentType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractElement.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractEntity.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractNode.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractProcessingInstruction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractProcessingInstruction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractText.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/AbstractText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/BackedList.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/BackedList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/BaseElement.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/BaseElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$1.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$BarrierLock.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$BarrierLock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$Entry.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$Entry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$EntrySet.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$EntrySet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$HashIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$HashIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$KeyIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$KeyIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$KeySet.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$KeySet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$ValueIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$ValueIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$Values.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap$Values.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ConcurrentReaderHashMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ContentListFacade.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ContentListFacade.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultAttribute.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultAttribute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultCDATA.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultCDATA.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultComment.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultComment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultDocument.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultDocument.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultDocumentType.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultDocumentType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultElement.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultEntity.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultNamespace.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultNamespace.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultProcessingInstruction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultProcessingInstruction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultText.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/DefaultText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ElementIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ElementIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ElementNameIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ElementNameIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ElementQNameIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/ElementQNameIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FilterIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FilterIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightAttribute.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightAttribute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightCDATA.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightCDATA.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightComment.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightComment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightEntity.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightProcessingInstruction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightProcessingInstruction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightText.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/FlyweightText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/NamespaceCache.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/NamespaceCache.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/NamespaceStack.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/NamespaceStack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/QNameCache.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/QNameCache.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/SingleIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/tree/SingleIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/AttributeHelper.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/AttributeHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/IndexedDocumentFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/IndexedDocumentFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/IndexedElement.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/IndexedElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/NodeComparator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/NodeComparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/NonLazyDocumentFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/NonLazyDocumentFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/NonLazyElement.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/NonLazyElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/PerThreadSingleton.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/PerThreadSingleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/ProxyDocumentFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/ProxyDocumentFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/SimpleSingleton.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/SimpleSingleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/SingletonStrategy.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/SingletonStrategy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/UserDataAttribute.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/UserDataAttribute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/UserDataDocumentFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/UserDataDocumentFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/UserDataElement.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/UserDataElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/XMLErrorHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/util/XMLErrorHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/xpath/DefaultNamespaceContext.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/xpath/DefaultNamespaceContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/xpath/DefaultXPath$1.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/xpath/DefaultXPath$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/xpath/DefaultXPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/xpath/DefaultXPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/dom4j/xpath/XPathPattern.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/dom4j/xpath/XPathPattern.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/BaseXPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/BaseXPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/Context.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/Context.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/ContextSupport.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/ContextSupport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/DefaultNavigator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/DefaultNavigator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/Function.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/Function.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/FunctionCallException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/FunctionCallException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/FunctionContext.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/FunctionContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/JaxenConstants.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/JaxenConstants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/JaxenException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/JaxenException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/JaxenHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/JaxenHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/JaxenRuntimeException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/JaxenRuntimeException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/NamedAccessNavigator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/NamedAccessNavigator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/NamespaceContext.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/NamespaceContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/Navigator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/Navigator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/QualifiedName.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/QualifiedName.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/SimpleFunctionContext.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/SimpleFunctionContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/SimpleNamespaceContext.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/SimpleNamespaceContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/SimpleVariableContext.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/SimpleVariableContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/UnresolvableException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/UnresolvableException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/UnsupportedAxisException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/UnsupportedAxisException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/VariableContext.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/VariableContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/XPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/XPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/XPathFunctionContext.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/XPathFunctionContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/XPathSyntaxException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/XPathSyntaxException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DOMXPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DOMXPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$1.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$2.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$3.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$4.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$5.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$6.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$AttributeIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$AttributeIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$NodeIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator$NodeIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/DocumentNavigator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/NamespaceNode$1.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/NamespaceNode$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/NamespaceNode$EmptyNodeList.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/NamespaceNode$EmptyNodeList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/NamespaceNode.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom/NamespaceNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom4j/DocumentNavigator$Singleton.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom4j/DocumentNavigator$Singleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom4j/DocumentNavigator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom4j/DocumentNavigator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom4j/Dom4jXPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/dom4j/Dom4jXPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/AdditiveExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/AdditiveExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/AllNodeStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/AllNodeStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/BinaryExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/BinaryExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/CommentNodeStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/CommentNodeStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultAbsoluteLocationPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultAbsoluteLocationPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultAdditiveExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultAdditiveExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultAllNodeStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultAllNodeStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultAndExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultAndExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultArithExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultArithExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultBinaryExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultBinaryExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultCommentNodeStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultCommentNodeStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultDivExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultDivExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultEqualityExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultEqualityExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultEqualsExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultEqualsExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultFilterExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultFilterExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultFunctionCallExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultFunctionCallExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultGreaterThanEqualExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultGreaterThanEqualExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultGreaterThanExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultGreaterThanExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultLessThanEqualExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultLessThanEqualExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultLessThanExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultLessThanExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultLiteralExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultLiteralExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultLocationPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultLocationPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultLogicalExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultLogicalExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultMinusExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultMinusExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultModExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultModExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultMultiplicativeExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultMultiplicativeExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultMultiplyExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultMultiplyExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultNameStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultNameStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultNotEqualsExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultNotEqualsExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultNumberExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultNumberExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultOrExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultOrExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultPathExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultPathExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultPlusExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultPlusExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultPredicate.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultPredicate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultProcessingInstructionNodeStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultProcessingInstructionNodeStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultRelationalExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultRelationalExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultRelativeLocationPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultRelativeLocationPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultTextNodeStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultTextNodeStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultTruthExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultTruthExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultUnaryExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultUnaryExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultUnionExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultUnionExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultVariableReferenceExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultVariableReferenceExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultXPathExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultXPathExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultXPathFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/DefaultXPathFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/EqualityExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/EqualityExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/Expr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/Expr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/FilterExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/FilterExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/FunctionCallExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/FunctionCallExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/IdentitySet$IdentityWrapper.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/IdentitySet$IdentityWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/IdentitySet.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/IdentitySet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/LiteralExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/LiteralExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/LocationPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/LocationPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/LogicalExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/LogicalExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/MultiplicativeExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/MultiplicativeExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/NameStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/NameStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/NodeComparator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/NodeComparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/NumberExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/NumberExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/PathExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/PathExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/Predicate.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/Predicate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/PredicateSet.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/PredicateSet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/Predicated.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/Predicated.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/ProcessingInstructionNodeStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/ProcessingInstructionNodeStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/RelationalExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/RelationalExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/Step.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/Step.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/TextNodeStep.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/TextNodeStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/UnaryExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/UnaryExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/UnionExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/UnionExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/VariableReferenceExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/VariableReferenceExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/XPathExpr.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/XPathExpr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/XPathFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/XPathFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableAncestorAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableAncestorAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableAncestorOrSelfAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableAncestorOrSelfAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableAttributeAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableAttributeAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableChildAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableChildAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableDescendantAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableDescendantAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableDescendantOrSelfAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableDescendantOrSelfAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableFollowingAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableFollowingAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableFollowingSiblingAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableFollowingSiblingAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableNamespaceAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableNamespaceAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableParentAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableParentAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterablePrecedingAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterablePrecedingAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterablePrecedingSiblingAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterablePrecedingSiblingAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableSelfAxis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/expr/iter/IterableSelfAxis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/BooleanFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/BooleanFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/CeilingFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/CeilingFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ConcatFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ConcatFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ContainsFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ContainsFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/CountFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/CountFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/FalseFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/FalseFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/FloorFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/FloorFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/IdFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/IdFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/LangFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/LangFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/LastFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/LastFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/LocalNameFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/LocalNameFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/NameFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/NameFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/NamespaceUriFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/NamespaceUriFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/NormalizeSpaceFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/NormalizeSpaceFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/NotFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/NotFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/NumberFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/NumberFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/PositionFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/PositionFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/RoundFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/RoundFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/StartsWithFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/StartsWithFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/StringFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/StringFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/StringLengthFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/StringLengthFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/SubstringAfterFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/SubstringAfterFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/SubstringBeforeFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/SubstringBeforeFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/SubstringFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/SubstringFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/SumFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/SumFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/TranslateFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/TranslateFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/TrueFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/TrueFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ext/EndsWithFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ext/EndsWithFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ext/EvaluateFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ext/EvaluateFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ext/LocaleFunctionSupport.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ext/LocaleFunctionSupport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ext/LowerFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ext/LowerFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ext/UpperFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/ext/UpperFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/xslt/DocumentFunction.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/function/xslt/DocumentFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/javabean/DocumentNavigator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/javabean/DocumentNavigator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/javabean/Element.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/javabean/Element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/javabean/ElementIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/javabean/ElementIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/javabean/JavaBeanXPath.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/javabean/JavaBeanXPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/AnyChildNodeTest.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/AnyChildNodeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/AnyNodeTest.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/AnyNodeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/LocationPathPattern.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/LocationPathPattern.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/NameTest.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/NameTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/NamespaceTest.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/NamespaceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/NoNodeTest.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/NoNodeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/NodeTest.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/NodeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/NodeTypeTest.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/NodeTypeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/Pattern.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/Pattern.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/PatternHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/PatternHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/PatternParser.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/PatternParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/TextNodeTest.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/TextNodeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/UnionPattern.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/pattern/UnionPattern.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/Axis.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/Axis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/Operator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/Operator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/SAXPathEventSource.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/SAXPathEventSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/SAXPathException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/SAXPathException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/XPathHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/XPathHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/XPathReader.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/XPathReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/XPathSyntaxException.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/XPathSyntaxException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/base/Token.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/base/Token.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/base/TokenTypes.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/base/TokenTypes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/base/Verifier.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/base/Verifier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/base/XPathLexer.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/base/XPathLexer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/base/XPathReader.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/base/XPathReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/helpers/DefaultXPathHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/helpers/DefaultXPathHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/helpers/XPathReaderFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/saxpath/helpers/XPathReaderFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/AncestorAxisIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/AncestorAxisIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/AncestorOrSelfAxisIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/AncestorOrSelfAxisIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/DescendantAxisIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/DescendantAxisIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/DescendantOrSelfAxisIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/DescendantOrSelfAxisIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/FollowingAxisIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/FollowingAxisIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/FollowingSiblingAxisIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/FollowingSiblingAxisIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/LinkedIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/LinkedIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/PrecedingAxisIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/PrecedingAxisIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/PrecedingSiblingAxisIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/PrecedingSiblingAxisIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/SelfAxisIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/SelfAxisIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/SingleObjectIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/SingleObjectIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/SingletonList.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/SingletonList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/StackedIterator.class" afterPath="$PROJECT_DIR$/target/classes/org/choice/jaxen/util/StackedIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/w3c/dom/UserDataHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/w3c/dom/UserDataHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConfigureNavigation.iml" afterPath="$PROJECT_DIR$/ConfigureNavigation.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Helper/ModityConfigHelper.java" afterPath="$PROJECT_DIR$/src/main/java/Helper/ModityConfigHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Helper/PingHelper.java" afterPath="$PROJECT_DIR$/src/main/java/Helper/PingHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Helper/PropertiesHelper.java" afterPath="$PROJECT_DIR$/src/main/java/Helper/PropertiesHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Helper/XmlToHtmlJsResolver.java" afterPath="$PROJECT_DIR$/src/main/java/Helper/XmlToHtmlJsResolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpRequestImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpRequestImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpResponseImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/choice/http/HttpResponseImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/choice/servlet/GetDataServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/choice/servlet/GetDataServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/choice/servlet/MyJson.java" afterPath="$PROJECT_DIR$/src/main/java/com/choice/servlet/MyJson.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/choice/utils/ErrorPageUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/choice/utils/ErrorPageUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/choice/utils/ServerPortUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/choice/utils/ServerPortUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/choice/utils/StatusCodeUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/choice/utils/StatusCodeUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -420,6 +430,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ConfigureNavigation" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
@@ -433,11 +446,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http://120.27.19.38:7893</find>
-      <find>hehe</find>
-      <find>connect</find>
-      <find>stepNameString</find>
-      <find>urlPath</find>
       <find>metaElement</find>
       <find>html</find>
       <find>&lt;div class=&quot;radioMain&quot;/&gt;</find>
@@ -458,19 +466,24 @@
       <find>allInfos</find>
       <find>http://127.0.0.1:8080/getdata</find>
       <find>http://127.0.0.1:8080</find>
-      <find>127.0.0.1:8080</find>
       <find>getBytes()</find>
       <find>write</find>
       <find>System.out.println</find>
       <find>values</find>
+      <find>center-data-dir</find>
+      <find>127.0.0.1:8080</find>
+      <find>System.out.p</find>
+      <find>还有正文</find>
+      <find>方式的参数</find>
+      <find>URL</find>
     </findStrings>
     <replaceStrings>
       <replace>setAttribute</replace>
       <replace>7893</replace>
       <replace>120.27.19.38</replace>
       <replace>http://localhost:7893</replace>
-      <replace>%s</replace>
       <replace>getBytes(&quot;UTF-8&quot;)</replace>
+      <replace>%s</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\Package\MavenRepository\jdom\jdom\1.0\jdom-1.0.jar!\org\jdom\adapters</dir>
@@ -487,18 +500,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/choice/dom4j/tree/DefaultDocument.java" />
-        <option value="$PROJECT_DIR$/src/main/java/choice/dom4j/dom/DOMProcessingInstruction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/choice/dom4j/dom/DOMNodeHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/choice/dom4j/dom/DOMNamespace.java" />
-        <option value="$PROJECT_DIR$/src/main/java/choice/dom4j/dom/DOMEntityReference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/choice/dom4j/dom/DOMDocumentType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/choice/dom4j/dom/DOMComment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/choice/dom4j/dom/DOMCDATA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/choice/jaxen/dom/NamespaceNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jdom/xpath/JaxenXPath.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/XmlToJs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/w3c/dom/UserDataHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jaxen/xom/DocumentNavigator.java" />
         <option value="$PROJECT_DIR$/src/main/java/nu/xom/Builder.java" />
         <option value="$PROJECT_DIR$/src/main/java/nu/xom/Verifier.java" />
@@ -514,7 +515,6 @@
         <option value="$PROJECT_DIR$/src/main/java/util/XmlParseHtml.java" />
         <option value="$PROJECT_DIR$/navigationHtml/kn.html" />
         <option value="$PROJECT_DIR$/navigationHtml/knn.html" />
-        <option value="$PROJECT_DIR$/src/main/java/test/Test.properties" />
         <option value="$PROJECT_DIR$/src/main/java/util/PingUtils.java" />
         <option value="$PROJECT_DIR$/navigationHtml/last.html" />
         <option value="$PROJECT_DIR$/src/main/resource/com/sample/utils/server_port.properties" />
@@ -523,7 +523,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sample/utils/ServerPortUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/PathUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/servlet/WelcomeServlet.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/util/ModityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/hah.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/a.text" />
@@ -532,12 +531,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sample/http/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/XmlToHtmlJs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/http/ServerTest.java" />
-        <option value="$PROJECT_DIR$/navigationHtml/controller.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/choice/http/HttpResponseImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/choice/hah.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Helper/XmlToHtmlJsResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Helper/ModityConfigHelper.java" />
+        <option value="$PROJECT_DIR$/Test.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/resource/ChoiceNavigation.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/config.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Helper/ModityConfigHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/Test.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/choice/http/HttpResponseImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Helper/PingHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/choice/utils/StatusCodeUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/choice/utils/ServerPortUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/choice/utils/ErrorPageUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/choice/servlet/MyJson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/choice/servlet/GetDataServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Helper/PropertiesHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/choice/http/HttpRequestImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/choice/erer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Helper/XmlToHtmlJsResolver.java" />
+        <option value="$PROJECT_DIR$/navigationHtml/controller.js" />
       </list>
     </option>
   </component>
@@ -561,11 +574,22 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ConfigureNavigation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="9" />
+    <option name="y" value="2" />
+    <option name="width" value="1362" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -642,8 +666,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -651,35 +674,107 @@
               <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
               <item name="ConfigureNavigation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigureNavigation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigureNavigation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigureNavigation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigureNavigation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="choice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigureNavigation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="choice" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigureNavigation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="choice" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigureNavigation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigureNavigation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ConfigureNavigation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ConfigureNavigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../basicinfo" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IDEA\ConfigureNavigation\src\main\resource\navigationHtml" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="util" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\IDEA\ConfigureNavigation\src\main\resource" />
       <recent name="F:\IDEA\ConfigureNavigation\img" />
       <recent name="F:\IDEA\ConfigureNavigation" />
       <recent name="F:\IDEA\ConfigureNavigation\target\classes\cn" />
+      <recent name="F:\IDEA\ConfigureNavigation\src\main\resource\navigationHtml" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\IDEA\ConfigureNavigation\src\main\resource\navigationHtml" />
     </key>
   </component>
@@ -695,7 +790,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.ConfigureNavigation">
+  <component name="RunManager" selected="Application.ServerTest">
     <configuration name="ConfigureNavigation" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -727,6 +822,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.choice.http.ServerTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ConfigureNavigation" />
+      <envs />
+    </configuration>
+    <configuration name="XmlToHtmlJsResolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Helper.XmlToHtmlJsResolver" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -838,20 +952,25 @@
       <module name="ConfigureNavigation" />
       <envs />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Maven.ConfigureNavigation" />
       <item index="1" class="java.lang.String" itemvalue="Application.ServerTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.hah" />
+      <item index="3" class="java.lang.String" itemvalue="Application.XmlToHtmlJsResolver" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Application.ServerTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.hah" />
+        <item index="1" class="java.lang.String" itemvalue="Application.XmlToHtmlJsResolver" />
+        <item index="2" class="java.lang.String" itemvalue="Application.hah" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -879,7 +998,19 @@
       <workItem from="1513757058708" duration="2186000" />
       <workItem from="1513831857022" duration="4223000" />
       <workItem from="1513848115047" duration="1434000" />
-      <workItem from="1513906270090" duration="2613000" />
+      <workItem from="1513906270090" duration="3146000" />
+      <workItem from="1514516217681" duration="28000" />
+      <workItem from="1514810698032" duration="29000" />
+      <workItem from="1515042930170" duration="1261000" />
+      <workItem from="1515047986002" duration="3251000" />
+      <workItem from="1515129475142" duration="3225000" />
+      <workItem from="1515133197367" duration="3071000" />
+      <workItem from="1515401659872" duration="4622000" />
+      <workItem from="1515482559367" duration="844000" />
+      <workItem from="1515489955961" duration="999000" />
+      <workItem from="1515552554004" duration="100000" />
+      <workItem from="1515571954830" duration="73000" />
+      <workItem from="1515576662852" duration="1405000" />
     </task>
     <task id="LOCAL-00001" summary="第一版（没有校验）">
       <created>1513330198342</created>
@@ -969,38 +1100,40 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125431000" />
+    <option name="totallyTimeSpent" value="144872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.74920636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3937397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.50292826" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2730159" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10873146" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16474465" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2796486" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3472012" sideWeight="0.47340426" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25396827" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2397882" sideWeight="0.5265958" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25370675" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1048,7 +1181,8 @@
     <MESSAGE value="第二版,改变默认的ip地址和端口号完成" />
     <MESSAGE value="修改只有一页时候的小bug" />
     <MESSAGE value="readme需要的图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme需要的图片" />
+    <MESSAGE value="1.修改IE浏览器下knn只显示按钮bug&#10;2.改变CSS样式, 提取style.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.修改IE浏览器下knn只显示按钮bug&#10;2.改变CSS样式, 提取style.css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1060,44 +1194,16 @@
           <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="54" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/navigationHtml/welcome.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/com/sample/utils/servlet_mapping.properties" />
-    <entry file="file://$PROJECT_DIR$/ConfigureNavigation.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/PathUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/ModityConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hah.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/a.text" />
-    <entry file="file://$PROJECT_DIR$/target/classes/cn/a.text" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/utils/ServletMappingUtils.java" />
-    <entry file="file://$PROJECT_DIR$/target/classes/cn/hah.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/cn/hah.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/cn/a.text" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/hah.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36480">
-          <caret line="1200" column="34" lean-forward="false" selection-start-line="1200" selection-start-column="34" selection-end-line="1200" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/PingUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/http/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/NavigationConfigServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/XmlToHtmlJs.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/http/ServerTest.java" />
-    <entry file="file://$PROJECT_DIR$/navigationHtml/knn.html" />
-    <entry file="file://$PROJECT_DIR$/navigationHtml/controller.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/http/HttpResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1112,32 +1218,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/http/HttpResponseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="134" column="43" lean-forward="false" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="471" column="0" lean-forward="false" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/http/ServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,14 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/NavigationConfigServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,7 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="93" column="11" lean-forward="false" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,7 +1292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18624">
           <caret line="817" column="50" lean-forward="false" selection-start-line="817" selection-start-column="50" selection-end-line="817" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1225,67 +1299,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="39" />
-          <folding>
-            <element signature="e#913#914#0" expanded="false" />
-            <element signature="e#973#974#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/a.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/hah.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Helper/XmlToHtmlJsResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="458" column="13" lean-forward="false" selection-start-line="458" selection-start-column="13" selection-end-line="458" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/ChoiceNavigation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="37" column="56" lean-forward="false" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/hah.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Helper/PathHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Helper/ModityConfigHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,7 +1316,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1304,7 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="471" column="18" lean-forward="false" selection-start-line="471" selection-start-column="18" selection-end-line="471" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,16 +1332,206 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="870" column="0" lean-forward="false" selection-start-line="870" selection-start-column="0" selection-end-line="870" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties" />
+    <entry file="file://$PROJECT_DIR$/Test.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/config.properties" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/NavigationConfigServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/choice/dom4j/swing/XMLTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="92" column="12" lean-forward="false" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helper/PingHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/utils/StatusCodeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/utils/ServerPortUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/servlet/MyJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/servlet/GetDataServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/choice/dom4j/dom/DOMNodeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10773">
+          <caret line="445" column="0" lean-forward="false" selection-start-line="445" selection-start-column="0" selection-end-line="445" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/http/HttpRequestImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helper/PropertiesHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/choice/jaxen/pattern/PatternHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="314" column="16" lean-forward="false" selection-start-line="314" selection-start-column="16" selection-end-line="314" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/utils/ErrorPageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/erer.java" />
+    <entry file="file://$PROJECT_DIR$/target/classes/com/choice/NavigationConfigServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/choice/http/HttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXModifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1077">
+          <caret line="266" column="9" lean-forward="false" selection-start-line="266" selection-start-column="9" selection-end-line="266" selection-end-column="9" />
           <folding>
-            <element signature="e#30017#30018#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/http/HttpResponseImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+        <state relative-caret-position="-316">
+          <caret line="104" column="13" lean-forward="false" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigationHtml/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1432">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helper/XmlToHtmlJsResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choice/http/ServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/choice/dom4j/io/SAXReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="452" column="0" lean-forward="false" selection-start-line="452" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/ChoiceNavigation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helper/ModityConfigHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1265">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigationHtml/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="319" column="2" lean-forward="true" selection-start-line="319" selection-start-column="2" selection-end-line="319" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigationHtml/knn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="6" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1366,7 +1576,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

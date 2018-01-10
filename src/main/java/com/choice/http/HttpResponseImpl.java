@@ -16,7 +16,6 @@ public class HttpResponseImpl  implements  HttpResponse {
 	//构造器
 	public HttpResponseImpl(Socket s) {
                     this.s=s;
-                    System.out.println("HttpRequestImpl(Socket s)");
                     os=null;
                     bw=null;
                     pw=null;
@@ -49,7 +48,6 @@ public class HttpResponseImpl  implements  HttpResponse {
 	public void setStatusLine(String statusCode)
 	{
 		String str=StatusCodeUtils.getStatusCodeValue(statusCode);
-		//System.out.println(str+"------"+str.length());
 		sbuffer.append("HTTP/1.1 "+statusCode+" "+str);
 		setCRLF();
 	}
@@ -105,9 +103,6 @@ public class HttpResponseImpl  implements  HttpResponse {
 			int len=-1;
 			while((len=fis.read(buf))!=-1)
 			{
-				//String str=buf.toString();
-				//bw.write(str);//字符流写过去是一个地址，因为写过去之后需要浏览器解析,如果是图片或者其他(图片或视频是字节流)的该怎么解析呢？
-				//System.out.println(str);
 				os.write(buf, 0, len);
 			}
 			bw.flush();
@@ -142,18 +137,12 @@ public class HttpResponseImpl  implements  HttpResponse {
 	//转发
 	@Override
 	public void sendRedirect(String pathName) {
-		System.out.println("----------");
-		System.out.println(sbuffer+"77777777");
 		sbuffer = new StringBuffer();
-		System.out.println(sbuffer);
-		System.out.println("开始向浏览器发送重定向");
 		this.setStatusLine(302);
 		this.setContentType("text/HTML");
 		sbuffer.append("Location: " + pathName);
 		this.setCRLF();
-		System.out.println(sbuffer + "=+");
 		this.printResponseHeader();
-		System.out.println("向浏览器发送重定向成功");
 	}
 
 	//向浏览器发地址

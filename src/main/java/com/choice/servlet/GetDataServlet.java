@@ -7,7 +7,6 @@ public class GetDataServlet implements Servlet {
 
     @Override
     public void service(HttpRequest request, HttpResponse response) {
-        System.out.println("进入到取数据...");
         String json =MyJson.mapToJSON(ModityConfigHelper.getValue(request.getParameterMap()));
         response.printResponseData(json);
     }

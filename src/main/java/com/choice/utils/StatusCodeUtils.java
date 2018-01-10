@@ -34,11 +34,5 @@ public class StatusCodeUtils {
 	{ 
 		return getStatusCodeValue(status+"");//没有空格
 	}
-	/*public static void main(String[] args) {//输出测试
-	//Properties p=new Properties();
-	// p.setProperty("rootPath","ddd");
-	//System.out.println(p.get("rootPath"));
-		System.out.println(getStatusCodeValue("304"));
-		System.out.println(getStatusCodeValue("200"));
-	}*/
+
 }

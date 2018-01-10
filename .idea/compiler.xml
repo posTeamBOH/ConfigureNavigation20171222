@@ -9,8 +9,8 @@
         <module name="ConfigureNavigation" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="ConfigureNavigation" target="1.8" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="ConfigureNavigation" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
