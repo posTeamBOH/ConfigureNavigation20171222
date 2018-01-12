@@ -12,6 +12,50 @@ import java.util.*;
 
 public class ModityConfigHelper {
     static String pathName = PathHelper.getPath();
+
+    /**
+     *初始化
+     */
+    public static boolean init(Map<String, String> maps){
+        //文件所在文件夹不存在则创建
+        String absolutePath = new File(pathName).getAbsolutePath();
+        File parent = new File(absolutePath).getParentFile();
+        if (!parent.exists()) {
+            parent.mkdirs();
+        }
+        File file = null;
+        Properties prop = new Properties();
+        InputStream inputFile;
+        OutputStream outputFile;
+        try {
+            file = new File(pathName);
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+            inputFile = new FileInputStream(new File(pathName));
+            prop.load(inputFile);
+            outputFile = new FileOutputStream(new File(pathName));
+
+            //设值-保存
+            for (String key : maps.keySet()) {
+                String value = maps.get(key);
+                if (prop.getProperty(key) == null || prop.getProperty(key).equals("")) {
+                    prop.setProperty(key, value);
+                }
+            }
+            prop.store(outputFile, "Update" );
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+
+
+
+
+
     /**
      *将修改保存到配置文件
      */

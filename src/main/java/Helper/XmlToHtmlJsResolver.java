@@ -105,7 +105,8 @@ public class XmlToHtmlJsResolver {
             writer.flush();
             //存储初始值
             MAPS = ModityConfigHelper.processData(MAPS);
-            ModityConfigHelper.update(MAPS);
+
+            ModityConfigHelper.init(MAPS);
 
 
         } catch (DocumentException e) {
@@ -186,6 +187,8 @@ public class XmlToHtmlJsResolver {
             if (valueTextFieldAttribute.size() > 0) {
                 String valueTextField = ((Attribute) valueTextFieldAttribute.get(0)).getValue();
                 MAPS.put(idString, valueTextField);
+            } else {
+                MAPS.put(idString, "");
             }
         }
     }
@@ -251,6 +254,8 @@ public class XmlToHtmlJsResolver {
                 if (valueTextFieldAttribute.size() > 0) {
                     String valueTextField = ((Attribute) valueTextFieldAttribute.get(0)).getValue();
                     MAPS.put(idString, valueTextField);
+                } else {
+                    MAPS.put(idString, "");
                 }
             }
         }
@@ -601,7 +606,7 @@ public class XmlToHtmlJsResolver {
                 "    //基础信息获取函数\n" +
                 "    function getParam() {\n" +
                 "        param = '';\n" +
-                "        console.log(Num)\n" +
+                "        //console.log(Num)\n" +
                 "        for (let i = 0; i < document.querySelectorAll('#modify' + Num + ' .main input').length; i++) {\n" +
                 "            param = param + document.querySelectorAll('#modify' + Num + ' .main input')[i].id + '=&'\n" +
                 "        }\n" +
@@ -615,7 +620,7 @@ public class XmlToHtmlJsResolver {
                 "        }\n" +
                 "        param = param.slice(0, param.length - 1)\n" +
                 "\n" +
-                "        // console.log(param,document.querySelectorAll('#modify'+Num+' .main input'));\n" +
+                "        // //console.log(param,document.querySelectorAll('#modify'+Num+' .main input'));\n" +
                 "        return param;\n" +
                 "    }\n" +
                 "\n" +
@@ -652,7 +657,7 @@ public class XmlToHtmlJsResolver {
                 "\n" +
                 "    //初始值的获取\n" +
                 "    function getInfo(param) {\n" +
-                "        console.log(param);\n" +
+                "        //console.log(param);\n" +
                 "        let xmlhttp;\n" +
                 "        if (window.XMLHttpRequest) {\n" +
                 "            //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码\n" +
@@ -666,7 +671,7 @@ public class XmlToHtmlJsResolver {
                 "\n" +
                 "                let data = xmlhttp.responseText;\n" +
                 "                data = JSON.parse(data);\n" +
-                "                console.log(data);\n" +
+                "                //console.log(data);\n" +
                 "                for (let i = 0; i < document.querySelectorAll('#modify' + Num + ' .main input').length; i++) {\n" +
                 "                    document.querySelectorAll('#modify' + Num + ' .main input')[i].value = data[document.querySelectorAll('#modify' + Num + ' .main input')[i].id];\n" +
                 "                }\n" +
@@ -704,10 +709,10 @@ public class XmlToHtmlJsResolver {
                 "        updateButton(0);\n" +
                 "    }\n" +
                 "\n" +
-                "    console.log('当前页码为:', Num);\n" +
-                "    console.log('当前Page的所有表单信息为：', infos, radioInfos);\n" +
-                "    console.log('所有Page的表单信息为：', allInfos, allRadioInfos);\n" +
-                "    console.log(param);\n" +
+                "    //console.log('当前页码为:', Num);\n" +
+                "    //console.log('当前Page的所有表单信息为：', infos, radioInfos);\n" +
+                "    //console.log('所有Page的表单信息为：', allInfos, allRadioInfos);\n" +
+                "    //console.log(param);\n" +
                 "    document.getElementById(\"modify\" + Num).style.display = \"block\";\n" +
                 "    /*\n" +
                 "`               ``````````````````````````````````````````````````````````````````````\n" +
@@ -737,7 +742,7 @@ public class XmlToHtmlJsResolver {
                 "        xmlhttp.onreadystatechange = function () {\n" +
                 "            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {\n" +
                 "                let data = xmlhttp.responseText;\n" +
-                "                console.log('点击下一步时候接收到的data：', JSON.parse(data));\n" +
+                "                //console.log('点击下一步时候接收到的data：', JSON.parse(data));\n" +
                 "                data = JSON.parse(data);\n" +
                 "                if (data.type == true) {\n" +
                 "                    if (Num < allPageNumber - 1) {\n" +
@@ -777,7 +782,7 @@ public class XmlToHtmlJsResolver {
                 "                let a = window.confirm(\"确定保存？\");\n" +
                 "                if (a == true) {\n" +
                 "                    let data = xmlhttp.responseText;\n" +
-                "                    console.log(JSON.parse(data));\n" +
+                "                    //console.log(JSON.parse(data));\n" +
                 "                    data = JSON.parse(data);\n" +
                 "                    if (data.type == \"1\") {\n" +
                 "                        window.location = \"/last.html\";\n" +
@@ -822,7 +827,7 @@ public class XmlToHtmlJsResolver {
                 "    //上一步\n" +
                 "    last.onclick = function () {\n" +
                 "        lastPage(param);\n" +
-                "        console.log(param);\n" +
+                "        //console.log(param);\n" +
                 "    };\n" +
                 "    //下一步\n" +
                 "    next.onclick = function () {\n" +
@@ -848,9 +853,9 @@ public class XmlToHtmlJsResolver {
                 "\n" +
                 "        }\n" +
                 "        param = param.slice(0, param.length - 1);\n" +
-                "        console.log(param);\n" +
+                "        //console.log(param);\n" +
                 "        nextPage(param);\n" +
-                "        console.log(param);\n" +
+                "        //console.log(param);\n" +
                 "    };\n" +
                 "\n" +
                 "    //完成\n" +
@@ -870,7 +875,7 @@ public class XmlToHtmlJsResolver {
                 "            }\n" +
                 "            param = param + document.querySelectorAll('.main input')[i].id + '=' + document.querySelectorAll('.main input')[i].value + '&'\n" +
                 "        }\n" +
-                "        console.log(document.querySelectorAll('.radioMain input'))\n" +
+                "        //console.log(document.querySelectorAll('.radioMain input'))\n" +
                 "        //处理radio\n" +
                 "        for (let i = 0; i < document.querySelectorAll('.radioMain input').length; i++) {\n" +
                 "            if (document.querySelectorAll('.radioMain input')[i].checked == true) {\n" +
@@ -879,9 +884,9 @@ public class XmlToHtmlJsResolver {
                 "\n" +
                 "        }\n" +
                 "        param = param.slice(0, param.length - 1);\n" +
-                "        console.log(param);\n" +
+                "        //console.log(param);\n" +
                 "        finalPage(param);\n" +
-                "        console.log(param);\n" +
+                "        //console.log(param);\n" +
                 "    };\n" +
                 "}\n" +
                 "\n" +

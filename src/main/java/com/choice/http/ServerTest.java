@@ -4,6 +4,7 @@ import Helper.XmlToHtmlJsResolver;
 import com.choice.utils.ServerPortUtils;
 
 import java.awt.*;
+import java.io.File;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -21,8 +22,12 @@ public class ServerTest {
                 	int port=Integer.parseInt(ServerPortUtils.getPort());
                 	System.out.println("Server Port:"+port);
 					ss=new ServerSocket(port, 1024);
-                    initWebapp();
-                    openDefaultBrowser();
+
+					if (!isConfigNavigation()) {
+                        initWebapp();
+                        openDefaultBrowser();
+                    }
+
 					while(flag)
 					{
 						//接受客户端发送过来的Socket
@@ -91,5 +96,24 @@ public class ServerTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+
+    /**
+     * 是否配置过，如果配置过，就不解析xml文件
+     * @return
+     */
+    private static boolean isConfigNavigation() {
+        boolean isConfig = false;
+
+        String parent = System.getProperty("user.dir") + File.separator + "navigationHtml" + File.separator;
+        if (new File(String.format("%s%s", parent, "knn.html")).exists() &&
+                new File(String.format("%s%s", parent, "last.html")).exists() &&
+                new File(String.format("%s%s", parent, "style.css")).exists() &&
+                new File(String.format("%s%s", parent, "welcome.html")).exists() &&
+                new File(String.format("%s%s", parent, "controller.js")).exists()) {
+            isConfig = true;
+        }
+        return isConfig;
     }
 }
